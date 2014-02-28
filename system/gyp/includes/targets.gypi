@@ -23,13 +23,13 @@
                                                                                 ],
                                                             'sources'       :   [
                                                                                     '<(UNIT_TESTS_SOURCE_FILE)',
+                                                                                    '<(GTEST_SOURCE_FILE)',
                                                                                 ],
                                                             'include_dirs'  :   [
-                                                                                    '$(GTEST_HOME)/include/',
+                                                                                    '<(GTEST_HOME)',
                                                                                 ],
                                                             'ldflags'       :   [
-                                                                                    '<(GTEST_OBJECT_FILE)',
-                                                                                    '-lpthread',                # Needed by gtest
+                                                                                    '-lpthread', # Needed by gtest
                                                                                 ],
                                                         },
                                                     ],

@@ -1,8 +1,8 @@
 {
     'target_defaults'   :   {
                                 'include_dirs'      :   [
-                                                            '$(STD_HOME)/include',
-                                                            '$(UNET_HOME)/include',
+                                                            '<(STD_INCLUDE_DIR)',
+                                                            '$(BNUM_HOME)/include',
                                                         ],
                                 'sources'           :   [
                                                             '<@(UNIT_SOURCES)',

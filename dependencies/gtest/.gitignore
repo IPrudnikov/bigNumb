@@ -1,0 +1,5 @@
+/*
+/*/
+!/.gitignore
+!/gtest-all.cc
+!/gtest/gtest.h
