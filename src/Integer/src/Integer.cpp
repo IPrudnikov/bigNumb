@@ -3,7 +3,9 @@
 namespace Bnum
 {
 
-            Integer::Integer ( const std::string&  )
+            Integer::Integer ( const std::string& data )
+                :
+                    data(data)
     {
 
     }

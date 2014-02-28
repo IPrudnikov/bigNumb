@@ -8,9 +8,10 @@ namespace Bnum
     class Integer
     {
         public:
-            explicit    Integer ( void ) = default;
-            explicit    Integer ( const std::string& string );
-            int         toInt ( void ) const;
+            explicit        Integer ( const std::string& data = "0" );
+            int             toInt ( void ) const;
+        private:
+            std::string     data;
     };
 }
 
