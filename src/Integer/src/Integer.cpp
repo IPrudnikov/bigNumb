@@ -3,9 +3,14 @@
 namespace Bnum
 {
 
-    Integer::Integer ( const std::string&  )
+            Integer::Integer ( const std::string&  )
     {
 
+    }
+
+    int     Integer::toInt ( void ) const
+    {
+        return 0;
     }
 
 }
