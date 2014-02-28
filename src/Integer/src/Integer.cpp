@@ -2,4 +2,10 @@
 
 namespace Bnum
 {
+
+    Integer::Integer ( const std::string&  )
+    {
+
+    }
+
 }

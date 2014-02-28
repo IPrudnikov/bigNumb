@@ -1,1 +1,1 @@
-#include <gtest/gtest.h>#include <Bnum/Integer.hpp>int main ( int argc , char** argv ){    ::testing::InitGoogleTest(&argc, argv);    return RUN_ALL_TESTS();}
+#include <gtest/gtest.h>#include <Bnum/Integer.hpp>TEST ( Integer , DoesNotThrowWhenBeingDefaultConstructed ){    ASSERT_NO_THROW(Bnum::Integer());}TEST ( Integer , DoesNotThrowWhenBeingConstructedFromStringOfNumerics ){    ASSERT_NO_THROW(Bnum::Integer("42"));}int main ( int argc , char** argv ){    ::testing::InitGoogleTest(&argc, argv);    return RUN_ALL_TESTS();}
